@@ -283,7 +283,8 @@ function displayDistance(){
         // body.innerHTML += "\nThe combined MPG for "+make+" "+model+" "+year+" is: " + carCombinedMPG;
          console.log("edmunds carHighwayMPG gotten: "+carHighwayMPG);
          console.log("edmunds carCityMPG gotten: "+carCityMPG);
-
+         console.log(JSON.stringify(res));
+         console.log(JSON.stringify(res.styles[0]));
        }
        // Oops, Houston we have a problem!
        function fail(data) {
